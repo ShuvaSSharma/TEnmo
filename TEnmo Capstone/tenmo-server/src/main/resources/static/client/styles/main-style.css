@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #1D2635;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logout-link {
+    margin-left: auto; 
+    color: #f0f0f0; 
+}
+
+.logout-link:hover {
+    color: #d3cdcd; 
+}
+
+.content {
+    padding: 20px;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.pfp-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #B2BCC8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.user-pfp {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.user-text {
+    color: #1D2635;
+}
+
+.username {
+    font-weight: 600;
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+}
+
+.action-button {
+    background-color: #b180d7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.account-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.balance, .latest-transfer {
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.balance {
+    background-color: #0B99FD;
+    color: #F6F7F9;
+}
+
+.latest-transfer {
+    background-color: #FFCB14;
+    color: #F6F7F9;
+}
+
+.amount {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.recent-transfers {
+    background-color: #1D2635;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.transfer-list {
+    margin-top: 10px;
+}
+
+.transfer-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4f5a65;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}

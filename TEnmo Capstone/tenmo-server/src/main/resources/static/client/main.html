@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/client/styles/main-style.css">
+    <title>Tenmo Dashboard</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo">TEnmo</h1>
+        <nav class="nav">
+            <a href="#" class="nav-link">Account</a>
+            <a href="#" class="nav-link">Transfer Money</a>
+            <a href="#" class="nav-link">View Transfers</a>
+            <a href="#" class="nav-link logout-link" onclick="logout()">Logout</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="welcome-section">
+            <div class="user-info">
+                <div class="pfp-container">
+                    <img src="/client/img/User-PFP.png" alt="User Profile Picture" class="user-pfp">
+                </div>
+                <div class="user-text">
+                    <p>Welcome Back</p>
+                    <p class="username">Adrian Castro</p>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="action-button">Pending TE Transfers</button>
+                <button class="action-button">Make A Transfer</button>
+                <button class="action-button">Request TE Bucks</button>
+            </div>
+            <div class="account-info">
+                <div class="balance">
+                    <p>Account Balance</p>
+                    <p class="amount">$1500.00</p>
+                </div>
+                <div class="latest-transfer">
+                    <p>Latest Transfer</p>
+                    <p class="amount">$500.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-transfers">
+            <h2>Recent Transfers:</h2>
+            <div class="transfer-list">
+                <div class="transfer-item">
+                    <p>Transfer From</p>
+                    <p>Amount Transferred</p>
+                </div>
+                <div class="transfer-item">
+                    <p>Shuva Sharma</p>
+                    <p>$500.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/client/js/main.js"></script>
+</body>
+
+</html>
